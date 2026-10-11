@@ -2,6 +2,10 @@
 workspace:
   id: c92306fb-8389-4b14-80f9-c44cded51b2a
 
+cloudResources:
+  collections:
+    ../postman/collections/Flask user app Copy: a437941e-fc8b-4721-944c-0970d0322716
+
 # All resources in the `postman/` folder are automatically registered in Local View.
 # Point to additional files outside the `postman/` folder to register them individually. Example:
 #localResources:

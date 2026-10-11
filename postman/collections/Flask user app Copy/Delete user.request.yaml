@@ -1,0 +1,5 @@
+$kind: http-request
+url: "{{base_url}}/api/users/delete/2"
+method: DELETE
+examples: ./.resources/Delete user.resources/examples
+order: 5000
