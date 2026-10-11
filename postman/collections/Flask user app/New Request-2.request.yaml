@@ -1,0 +1,22 @@
+$kind: http-request
+name: New Request
+url: "   {{base_url}}/api/users/update"
+method: PUT
+body:
+  type: json
+  content: "   {\r
+
+    \       \"user_id\": 1,\r
+
+    \       \"name\": \"Reina \",\r
+
+    \       \"email\": \"reina@gmail.com\",\r
+
+    \       \"phone\": \"067765434567\",\r
+
+    \       \"address\": \"beirut\",\r
+
+    \       \"country\": \"lebanon\"\r
+
+    \   }"
+order: 1995263749642167

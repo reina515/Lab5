@@ -1,0 +1,20 @@
+$kind: http-request
+name: New Request
+url: "   {{base_url}}/api/users/add"
+method: POST
+body:
+  type: json
+  content: "   {\r
+
+    \       \"name\": \"Rosie Hnai\",\r
+
+    \       \"email\": \"Rosie@gmail.com\",\r
+
+    \       \"phone\": \"06776542214567\",\r
+
+    \       \"address\": \"beirut\",\r
+
+    \       \"country\": \"lebanon\"\r
+
+    \   }"
+order: 356340828999373
